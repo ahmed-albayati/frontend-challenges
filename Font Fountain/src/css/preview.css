@@ -1,0 +1,31 @@
+/* Text Preview Section */
+.preview {
+  flex: 0 1 12%; /* Adjusted flex to take 12% of container height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #00FFFF; /* Cyan background */
+  padding: 10px;
+  box-shadow: inset 0 4px 15px rgba(0, 0, 0, 0.2); /* Inner shadow for depth */
+}
+
+.preview h2 {
+  font-size: 1em; /* Reduced font size for heading */
+  color: #000; /* Black heading */
+  margin-bottom: 5px; /* Adjusted margin */
+}
+
+/* Preview Textarea */
+#App {
+  width: 97%;
+  height: 50%; /* Adjusted height */
+  font-size: 2.4em; /* Increased font size for the preview text */
+  border: 2px solid #000; /* Black border */
+  padding: 10px;
+  border-radius: 5px;
+  resize: none;
+  color: #000; /* Change text color to black */
+  background-color: #ffffff; /* White background for better readability */
+  transition: background-color 0.3s ease, border-color 0.3s ease; /* Smooth transition */
+}

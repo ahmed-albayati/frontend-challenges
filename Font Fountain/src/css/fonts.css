@@ -1,0 +1,350 @@
+@font-face {
+    font-family: 'Aladin';
+    src: url('../static/fonts/Aladin/Aladin-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Archivo Black';
+    src: url('../static/fonts/Archivo_Black/Archivo_Black-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Asar';
+    src: url('../static/fonts/Asar/Asar-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Asul';
+    src: url('../static/fonts/Asul/Asul-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Beth Ellen';
+    src: url('../static/fonts/Beth_Ellen/Beth_Ellen-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Bevan';
+    src: url('../static/fonts/Bevan/Bevan-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Biryani';
+    src: url('../static/fonts/Biryani/Biryani-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Bodoni Moda SC';
+    src: url('../static/fonts/Bodoni_Moda_SC/Bodoni_Moda_SC-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Bungee Shade';
+    src: url('../static/fonts/Bungee_Shade/Bungee_Shade-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Carlito';
+    src: url('../static/fonts/Carlito/Carlito-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Carrois Gothic SC';
+    src: url('../static/fonts/Carrois_Gothic_SC/Carrois_Gothic_SC-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Cormorant SC';
+    src: url('../static/fonts/Cormorant_SC/Cormorant_SC-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Courgette';
+    src: url('../static/fonts/Courgette/Courgette-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'DM Serif Display';
+    src: url('../static/fonts/DM_Serif_Display/DM_Serif_Display-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Dokdo';
+    src: url('../static/fonts/Dokdo/Dokdo-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Doppio One';
+    src: url('../static/fonts/Doppio_One/Doppio_One-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Edu AU VIC WA NT Dots';
+    src: url('../static/fonts/Edu_AU_VIC_WA_NT_Dots/Edu_AU_VIC_WA_NT_Dots-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Edu AU VIC WA NT Guides';
+    src: url('../static/fonts/Edu_AU_VIC_WA_NT_Guides/Edu_AU_VIC_WA_NT_Guides-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Edu AU VIC WA NT Hand';
+    src: url('../static/fonts/Edu_AU_VIC_WA_NT_Hand/Edu_AU_VIC_WA_NT_Hand-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Fredoka';
+    src: url('../static/fonts/Fredoka/Fredoka-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Freeman';
+    src: url('../static/fonts/Freeman/Freeman-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Gurajada';
+    src: url('../static/fonts/Gurajada/Gurajada-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'IBM Plex Sans';
+    src: url('../static/fonts/IBM_Plex_Sans/IBM_Plex_Sans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Jacquarda Bastarda 9';
+    src: url('../static/fonts/Jacquarda_Bastarda_9/Jacquarda_Bastarda_9-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Jacquard 12 Charted';
+    src: url('../static/fonts/Jacquard_12_Charted/Jacquard_12_Charted-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Jockey One';
+    src: url('../static/fonts/Jockey_One/Jockey_One-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Kaisei Tokumin';
+    src: url('../static/fonts/Kaisei_Tokumin/Kaisei_Tokumin-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Major Mono Display';
+    src: url('../static/fonts/Major_Mono_Display/Major_Mono_Display-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Norican';
+    src: url('../static/fonts/Norican/Norican-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Open Sans';
+    src: url('../static/fonts/Open_Sans/Open_Sans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Oswald';
+    src: url('../static/fonts/Oswald/Oswald-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Playfair Display';
+    src: url('../static/fonts/Playfair_Display/Playfair_Display-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Playwrite AU NSW';
+    src: url('../static/fonts/Playwrite_AU_NSW/Playwrite_AU_NSW-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Playwrite DE Grund';
+    src: url('../static/fonts/Playwrite_DE_Grund/Playwrite_DE_Grund-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Playwrite ES';
+    src: url('../static/fonts/Playwrite_ES/Playwrite_ES-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Poiret One';
+    src: url('../static/fonts/Poiret_One/Poiret_One-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Port Lligat Sans';
+    src: url('../static/fonts/Port_Lligat_Sans/Port_Lligat_Sans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Protest Revolution';
+    src: url('../static/fonts/Protest_Revolution/Protest_Revolution-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Recursive';
+    src: url('../static/fonts/Recursive/Recursive-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Roboto';
+    src: url('../static/fonts/Roboto/Roboto-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Roboto Mono';
+    src: url('../static/fonts/Roboto_Mono/Roboto_Mono-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Rubik Dirt';
+    src: url('../static/fonts/Rubik_Dirt/Rubik_Dirt-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Ruthie';
+    src: url('../static/fonts/Ruthie/Ruthie-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Saira';
+    src: url('../static/fonts/Saira/Saira-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Seaweed Script';
+    src: url('../static/fonts/Seaweed_Script/Seaweed_Script-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Special Elite';
+    src: url('../static/fonts/Special_Elite/Special_Elite-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Stalinist One';
+    src: url('../static/fonts/Stalinist_One/StalinistOne-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Ubuntu Sans Mono';
+    src: url('../static/fonts/Ubuntu_Sans_Mono/Ubuntu_Sans_Mono-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Volkhov';
+    src: url('../static/fonts/Volkhov/Volkhov-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Yellowtail';
+    src: url('../static/fonts/Yellowtail/Yellowtail-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  

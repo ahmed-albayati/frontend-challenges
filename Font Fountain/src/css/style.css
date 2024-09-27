@@ -1,0 +1,31 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Basic Body Styling */
+body {
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(to right, #e0f7fa, #80deea); /* Light gradient background */
+  color: #333;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Outer Container Styling */
+.container {
+  width: 100%; /* Full width of the viewport */
+  max-width: 1300px; /* Maximum width for larger screens */
+  height: 97vh; /* Adjusted height to take up more space */
+  display: flex;
+  flex-direction: column; /* Stack sections vertically */
+  justify-content: flex-start; /* Start from the top */
+  border-radius: 15px; /* Slightly more rounded corners */
+  overflow: hidden; /* Prevent overflow of child elements */
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+  background-color: #fff; /* White background for the container */
+}

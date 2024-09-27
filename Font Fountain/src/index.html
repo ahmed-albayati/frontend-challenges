@@ -1,15 +1,46 @@
 <!DOCTYPE html>
-<html lang="en" translate="no">
-  <head>
-    <meta charset="utf-8">
-    <script defer type="module" src="/main.js"></script>
-    <title>TechNarts Frontend Challenge: Font Fountain</title>
-  </head>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Font Fountain</title>
 
-  <body>
-    <div id="App">
-      <!-- Here comes your masterpiece of engineering and art. -->
-    </div>
-  </body>
+  <!-- Separated CSS files for different sections -->
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/header.css">
+  <link rel="stylesheet" href="./css/preview.css">
+  <link rel="stylesheet" href="./css/font-list.css">
+  <link rel="stylesheet" href="./css/fonts.css">
+</head>
+<body>
+  <!-- Your HTML structure remains the same -->
+  <div class="container">
+    <header class="header">
+      <h1 class="site-name">Font Flow</h1>
+      <section class="history">
+        <h2>History</h2>
+        <ul id="history-list">
+          <!-- The history list will be dynamically updated -->
+        </ul>
+      </section>
+    </header>
+
+    <section class="preview">
+      <h2>Font Preview</h2>
+      <!-- Preview box with id="App" -->
+      <textarea id="App" rows="2" style="font-family: 'Asar';" placeholder="Enter text to preview..."></textarea>
+    </section>
+
+    <aside class="font-list">
+      <h2>Font List</h2>
+      <ul id="font-preview-list">
+        <!-- The font list items will be dynamically added here -->
+      </ul>
+    </aside>
+    
+    
+  </div>
+
+  <script src="./main.js"></script>
+</body>
 </html>
-
