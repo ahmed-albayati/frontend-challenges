@@ -1,10 +1,10 @@
 /* Font List Section */
 .font-list {
   flex: 1;
-  background-color: #ffffff; /* White background for font list */
+  background-color: #ffffff;
   padding: 20px;
-  overflow-y: auto; /* Scrollable font list */
-  border-top: 2px solid #00FFFF; /* Cyan border on top */
+  overflow-y: auto; /* Make the font list scrollable */
+  border-top: 2px solid #00FFFF;
 }
 
 .font-list h2 {
@@ -18,56 +18,51 @@
   padding: 0;
   display: flex;
   flex-direction: column;
-  gap: 10px; /* Spacing between font items */
+  gap: 10px;
 }
 
 /* Individual Font Preview Item */
 .font-item {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  padding: 10px;
-  border: 2px solid transparent; /* Transparent border for spacing */
-  border-radius: 10px;
+  align-items: flex-start; /* Align text to the left */
+  padding: 5px 10px;
+  border: 2px solid transparent;
+  border-radius: 8px;
   background-color: #f9f9f9;
-  transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
-  cursor: pointer; /* Change cursor to pointer on hover */
+  transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+  box-sizing: border-box; /* Ensure padding fits within element */
 }
 
-/* Hover Effect */
+/* Hover and Selected Effects */
 .font-item:hover {
-  background-color: #00FFFF; /* Highlight the hovered font */
-  color: #000; /* Change text color on hover */
-  transform: scale(1.05); /* Slightly enlarge the item on hover */
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
+  background-color: #e0f7fa;
+  color: #000;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Highlight selected font item */
 .font-item.selected {
-  background-color: #00FFCC; /* Highlight color for selected font */
-  border: 2px solid #00CC99; /* Darker border for selected font */
-  transform: scale(1.05); /* Slightly enlarge the selected item */
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); /* Add shadow for selected item */
+  background-color: #00FFCC;
+  border: 2px solid #00CC99;
 }
 
-/* Font Name Styling */
 .font-item .font-name {
-  font-size: 0.8em; /* Smaller font size for the name */
-  transition: font-size 0.3s ease; /* Smooth transition for font size */
+  font-size: 0.8em;
+  transition: font-size 0.3s ease;
 }
 
-/* Increase font size on hover */
 .font-item:hover .font-name {
   font-size: 0.9em;
 }
 
-/* Ensure selected font has clear background and border */
+/* Ensure selected font remains highlighted */
 .font-item.selected {
-  background-color: #00CCFF; /* Brighter cyan for selected font */
-  border: 2px solid #00CC99; /* Darker border for selected font */
+  background-color: #00CCFF;
+  border: 2px solid #00CC99;
 }
 
-/* Styles for the font list section */
+/* Styles for Font List in aside */
 .font-list ul {
   list-style-type: none;
   padding: 0;
@@ -83,18 +78,15 @@
   transition: background-color 0.2s ease, color 0.2s ease;
 }
 
-/* On hover, change the background and text color */
 .font-list li:hover {
   background-color: #f0f0f0;
   color: #000;
 }
 
-/* Styles for the preview text in each font item */
 .font-list li span {
   font-size: 24px;
 }
 
-/* Styles for the small font name */
 .font-list li small {
   display: block;
   font-size: 12px;

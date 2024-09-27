@@ -136,3 +136,38 @@ Nevertheless, your submission will still be considered without it, if it is the 
 
 ## Your Notes
 
+# Font Flow
+
+## Project Overview
+
+Font Flow is a web application for quickly browsing and previewing a predefined set of fonts. The interface is designed for simplicity (easy to understand and use instead of looking professional), allowing users to easily switch between fonts and visualize their text in different styles.
+
+Each font is add to static>fonts directory .
+and each font from the directory defined in fonts.css file .
+main.js have list for all founts and contain all functions.
+only one html file index.html have all the skeleton .
+in css directory all the css style applied .
+
+for style :
+fonts.css to define the fonts.
+style.css for the layout
+header.css include the name and history style of the first section
+preview.css for the preview bar style as the second section
+font-list.css for the font list style as the third section
+
+
+### Key Features:
+- Dynamic font list that loads various Google Fonts.
+- Preview of fonts applied to custom text.
+- Glyph rounding: Users can scroll through letters of the alphabet with their mouse wheel over the preview text.
+- History feature to keep track of the last two selected fonts.
+
+## Design Choices
+
+1. **Identity of the Application**: Font Flow for u asked for the zip file to have ff_<name>_<surname>.zip so it looked suitable to a name with ff short , also the name fast flow . It's Font Flow.
+
+2. **Font Collection Merits**: really wanted the fonts to look different to see the code work . These include a variety of styles, most of them still to fill the number as well.
+
+3. **Placeholder Text Justification**: "Preview text for the selected font,". It easily can be changed in the code , basic one not many not few diverse letters , The "," at the end to show how the notation appear in the font.
+
+
